@@ -1,0 +1,75 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+
+@font-face {
+    font-family: HelveticaNeuee;
+    src: url("../fonts/helveticaneue.ttf")
+}
+
+@font-face {
+    font-family: captchaFont;
+    src: url("../fonts/font13.ttf");
+}
+* {
+    box-sizing: inherit;
+    font-family: HelveticaNeuee;
+}
+
+.html{
+    font-size: 70.5%;
+    line-height: 1.6rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.border-none{
+    border: none !important;
+}
+.mg20{
+    margin: 25px 0 !important;
+}
+h4{
+    margin: 0;
+    width: 200px;
+}
+.col-2{
+    column-count: 2 !important;
+    margin:20px;
+}
+.col-3{
+    column-count: 3 !important;
+    margin:20px;
+}
+.col-4{
+    column-count: 4 !important;
+}
+.red{
+    color: red !important;
+    margin: 0 20px;
+}
+.col-0{
+    width: 100%;
+    margin-bottom :20px !important;
+    margin-left: 20px !important;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}

@@ -1,0 +1,172 @@
+.modal-products.open {
+    display: flex;
+}
+
+.modal-products {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* display: none; */
+    align-items: center;
+    justify-content: center;
+    z-index: 500;
+}
+
+.modal-products {
+    display: none;
+}
+
+.product-container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    animation: modalFaceIn ease 0.4s;
+    background-color: #fff;
+}
+
+.form-quick-order {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.quick-order {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.quick-order__left {
+    text-align: center;
+    display: block;
+}
+
+.quick-order__left img {
+    width: 305px;
+    height: 400px;
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+}
+
+
+.quick-order__left .product-title .product-name span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #009780;
+}
+
+.quick-order__left .product-title .product-prises {
+    margin: 10px auto 20px;
+}
+
+.quick-order__left .product-title .product-prises span:first-child {
+    font-size: 20px;
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.quick-order__left .product-title .product-prises span:last-child {
+    font-size: 16px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.hot-line a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    margin: 0 auto 10px auto;
+    line-height: 40px;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    background: transparent linear-gradient(88deg, #009981 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 20px;
+    width: 135px;
+    text-decoration: none;
+}
+
+.hot-line i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.hot-line p {
+    color: #009780;
+    font-style: italic;
+}
+
+.quick-order__right {
+    width: 50%;
+}
+
+.quick-order__right input,
+.order-city-input,
+textarea {
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+.quick-order__right label {
+    margin-bottom: 5px;
+}
+
+.quick-order__right--row .order__right--row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.order-city-input {
+    width: 196px;
+    max-width: 100%;
+}
+
+.row-submit {
+    width: 100%;
+    text-align: center;
+}
+
+.row-submit p {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.row-submit button[type="submit"] {
+    background: transparent linear-gradient(180deg, #009981 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.row-submit button[type="submit"]:hover {
+    background: transparent linear-gradient(0deg, #009981 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+}

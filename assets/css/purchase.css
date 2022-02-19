@@ -1,0 +1,250 @@
+
+.header-purchase{
+    display: flex;
+    justify-content: start;
+}
+
+.header-purchase a {
+    margin: auto 0;
+    border-right: 1px solid red;
+}
+
+.header-purchase h2 {
+    margin-left: 15px;
+    font-weight: 500;
+    color: #086154;
+}
+
+.receive-inf{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.purchase-container {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 100%;
+    min-height: 1000px;
+}
+
+.line-header {
+    height: 3px;
+    width: 100%;
+    background-position-x: -30px;
+    background-size: 116px 3px;
+    background-image: repeating-linear-gradient(
+45deg,#6fa6d6,#6fa6d6 33px,transparent 0,transparent 41px,#f18d9b 0,#f18d9b 74px,transparent 0,transparent 82px);
+}
+
+.header-line div  {
+    display: flex;
+    padding: 20px;
+}
+
+.header-line div h3 {
+    margin: 0;
+    color: #f18d9b;
+}
+
+.header-line div h3 i{
+    margin-right: 10px ;
+}
+
+.header-inf {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 15px 15px;
+    width: calc(100% - 30px);
+}
+
+.header-inf-item {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+.header-inf-item label {
+    color: rgb(82, 78, 78);
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.header-inf-item input {
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-inf {
+    background-color: #fff;
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-inf-header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-inf-header h4{
+    margin: auto 0;
+    flex: 4;
+    color: rgb(40, 87, 71);
+}
+.product-inf-header p{
+    flex: 1;
+    color: rgb(182, 179, 179);
+    font-size: 11pt;
+    text-align: end;
+}
+
+.product-inf-body {
+    padding: 0 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-inf-body .column-1{
+    flex: 4 ;
+}
+
+.product-inf-body .column-2{
+    flex: 1;
+    text-align: end;
+    margin: auto 0;
+}
+
+.column-1 {
+    display: flex;
+}
+
+.start {
+    display: flex;
+    flex: 3;
+}
+
+.end {
+    margin: auto 0;
+}
+
+.start .product-img {
+    flex: 1;
+    margin: auto 0;
+}
+
+.start .product-name {
+    margin: auto 30px auto 5px;
+}
+
+.end {
+    flex: 1;
+    color: rgb(182, 179, 179);
+}
+
+.purchase-note {
+    padding: 15px;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+}
+
+.purchase-note label {
+    color: rgb(82, 78, 78);
+}
+
+.purchase-note input {
+    height: 30px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.purchase-totalprice {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+}
+
+.purchase-totalprice div {
+    display: flex;
+}
+.purchase-totalprice div p {
+    margin-right: 10px;
+}
+.purchase-totalprice div span {
+    margin: auto 0;
+    font-size: 14pt;
+    color: #f18d9b;
+    font-weight: 600;
+}
+
+.func-purchase {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.payment-method {
+    display: flex;
+}
+
+.payment-method span {
+    padding: 5px;
+    margin: auto 15px;
+    border: 1px solid #f18d9b;
+    border-radius: 5px;
+    font-size: 11pt;
+}
+
+.btn-purchase {
+    margin: auto 0;
+    background-color:#227c6f;
+    padding: 10px 50px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-purchase:hover {
+    opacity: 0.7;
+}
+
+.verify-email {
+    padding: 30px;
+    text-align: center;
+}
+
+.verify-email input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #227c6f; 
+}
+
+.input-code {
+    border: none; 
+    background-color:teal; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+.input-code:hover {
+    opacity: 0.7;
+}
+
+.reset-password{
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0 auto;
+}
+
+.reset-password.notif1{
+    display: none;
+}
+
+.reset-password.notif2{
+    display: none;
+}

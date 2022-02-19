@@ -1,0 +1,158 @@
+.modal-signup.open {
+    display: flex;
+}
+.modal-signup {
+ margin-top: 100px;
+}
+.modal-signup {
+    display: flex;
+}
+.signup-container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    justify-content: center;
+
+}
+.signup-container img{
+    background-color:#fbe9e7;
+    width: 300px;
+    padding: 209px 70px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.signup-area{
+    width: 100%;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.signup-form{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.signup-form span{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.signup-form span:first-child{
+    font-size: 20px;
+    font-weight:bold;
+    margin: 30px 0 20px 0;
+}
+
+.signup-row{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    position: relative;
+}
+.signup-row label{
+    width: 30%;
+    font-size: 15px;
+}
+.city_input,
+.dictric_input,
+.signup-row  input{
+    width: 65%;
+    padding: 5px 12px;
+    outline: none;
+    background: #e5e5e5;
+    border: 2px solid #fff;
+    border-radius:8px;
+}
+.signup-row  input[type="radio"]{
+    width: 100%;
+    padding: 5px 12px;
+    outline: none;
+    background: #e5e5e5;
+    border: 2px solid #fff;
+    border-radius:8px;
+}
+.signup-row button{
+    margin: 5px auto;
+    padding: 15px 60px;
+    border: none;
+    border-radius:8px;
+    background: linear-gradient(0deg, #005245, #008a74);
+    color:white;
+    cursor: pointer;
+}
+.signup-row button:hover{
+    background: linear-gradient(180deg, #005245, #008a74)
+}
+.rd-sex-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rd-sex-group input{
+    transform: scale(1.8);
+    margin-left: 5px;
+    margin-right: 10px;
+    accent-color: #009981;
+}
+.rd-sex-group span{
+    margin: 0;
+    margin-right: 20px;
+}
+.show-password, .show-repassword{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 69.3%;
+}
+.btn-showpass,.btn-showrepass{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.show-password input,.show-repassword input{
+    width: 100%;
+}
+@keyframes modalFaceIn {
+    from {
+        opacity: 0;
+        transform:translateY(-140px)
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0)
+    }
+  }
+.check{
+    position:absolute;
+    right: 10px;
+}
+.check i{
+    color: rgb(101, 160, 12);
+}
+.check-id,.check-phone,.check-email,.check-name,.check-address,.check-captcha{
+    display:none;
+}
+
+.signup-notif {
+    color: red;
+    margin-top: 5px;
+}
+
+.signup-notif.notif1 {
+    display: none;
+}
+.signup-notif.notif2 {
+    display: none;
+}
+.signup-notif.notif3 {
+    display: none;
+}
+.signup-notif.notif4 {
+    display: none;
+}

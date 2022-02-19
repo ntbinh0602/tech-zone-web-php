@@ -1,0 +1,246 @@
+$greenBorder: rgb(25, 116, 31);
+$greenColor: rgb(42, 180, 49);
+$boxShadow: rgb(0, 0, 0 / 5%);
+
+.order-mana-right {
+  width: 1000px;
+  max-width: 100%;
+
+  .order-mana__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    a {
+      cursor: pointer;
+      width: 20%;
+      text-align: center;
+      padding: 16px 0;
+      text-decoration: none;
+      border-bottom: 2px solid #fff;
+      color: #000;
+      min-height: 14.4px;
+
+      &:hover {
+        border-bottom: 2px solid $greenBorder;
+        z-index: 2px;
+        color: $greenColor;
+      }
+    }
+  }
+}
+
+.order-mana-right {
+  .order-mana__search {
+    position: relative;
+    padding: 12px 0;
+    margin: 20px 0;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 $boxShadow;
+    color: #212121;
+    background: #eaeaea;
+    border-radius: 2px;
+
+    i {
+      position: absolute;
+      left: 10px;
+    }
+
+    input {
+      -webkit-flex: 1;
+      -moz-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      font-size: 14px;
+      line-height: 16px;
+      border: 0;
+      outline: none;
+      background-color: inherit;
+      padding-left: 50px;
+    }
+  }
+}
+
+.order-mana-UI1 {
+  .order-mana-con {
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+
+    &-status {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 10px 0;
+      margin: 0 20px;
+
+      .order-mana-status-col {
+        color: $greenColor;
+        padding: 0 10px;
+        border-right: 1px solid #ccc;
+
+        &:last-child {
+          border: none;
+        }
+      }
+
+      &-3 {
+        display: flex;
+
+        .order-mana-status-col {
+        }
+
+        i {
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+
+      &-1 {
+        display: flex;
+
+        .order-mana-status-col {
+          color: orange;
+        }
+
+        i {
+          &:nth-child(2) {
+            display: none;
+          }
+        }
+      }
+
+      &-2 {
+        display: flex;
+
+        .order-mana-status-col {
+          color: rgb(40, 40, 173);
+        }
+
+        i {
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+
+      &-4 {
+        display: flex;
+
+        .order-mana-status-col {
+          color: red;
+        }
+
+        i {
+          &:nth-child(2) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &-product {
+      margin: 0 20px 0;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      padding: 8px 0;
+
+      &-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-left {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          img {
+            width: 80px;
+          }
+
+          &-title {
+            margin-left: 20px;
+            font-size: 15px;
+            color: #666;
+
+            span {
+              font-size: 15px;
+              color: #666;
+
+              &:first-child {
+                font-size: 20px;
+                color: #000;
+              }
+            }
+          }
+        }
+
+        &-right {
+          margin-right: 50px;
+          color: red;
+        }
+      }
+
+      &-1 {
+        display: flex;
+      }
+    }
+
+    &-total {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 20px 0;
+      margin-right: 20px;
+
+      &-col {
+        margin-left: 20px;
+
+        a {
+          padding: 12px 35px;
+          text-decoration: none;
+
+          &:first-child {
+            color: #000;
+            border: 1px solid #ccc;
+            margin-right: 20px;
+
+            &:hover {
+              background: #ccc;
+            }
+          }
+
+          &:last-child {
+            color: #fff;
+            background: transparent
+              linear-gradient(88deg, #009981 0%, #00483d 100%) 0% 0% no-repeat
+              padding-box;
+
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+        }
+
+        span:first-child {
+          margin-right: 10px;
+        }
+
+        span:last-child {
+          color: red;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

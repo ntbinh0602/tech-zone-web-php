@@ -1,0 +1,287 @@
+.modal-sign-in.open {
+    display: flex;
+}
+
+.modal-sign-in {
+    margin-top: 100px;
+}
+
+.modal-sign-in {
+    display: flex;
+}
+
+.sign-in-container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    z-index: 100;
+
+}
+
+.model-close {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    background-color: red;
+}
+
+.model-close i {
+    padding: 6px 8px;
+    color: #fff;
+}
+.modal-sign-in img {
+    background-color: rgb(251 233 231);
+    padding: 90px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sign-in-area {
+    background-color: white;
+    display: block;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sign-in-form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px auto;
+}
+
+.sign-in-form h2 {
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 15px 0px;
+}
+
+.sign-in__btn,
+.sign-in__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-in__btn a,
+.sign-in__btn button,
+.sign-in__links button {
+    /* padding: 10px 85px 10px 2px; */
+    border: none;
+    margin: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 47.5%;
+    min-width: 120px;
+    padding: 2px;
+}
+
+.sign-in__links button img {
+    padding: 0;
+    margin-right: 5px;
+}
+
+.sign-in__links button span {
+    font-size: 0.9rem;
+}
+
+.sign-in__links button:first-child {
+    background-color: #4267b2;
+}
+
+.sign-in__links button:last-child {
+    background-color: #4385f5;
+}
+
+.sign-in__or {
+    border-bottom: 2px solid #afafaf;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+    margin: 40px 0 20px 0;
+    position: relative;
+}
+
+.sign-in__or p {
+    display: flex;
+    position: absolute;
+    top: -24px;
+    background-color: #fff;
+    color: #afafaf;
+    padding: 0 10px;
+}
+
+.sign-in__login {
+    display: block;
+}
+
+.sign-in__login label,
+.sign-in__login>input {
+    display: block;
+    width: 97%;
+}
+
+.sign-in__login label {
+    margin-bottom: 5px;
+}
+
+.sign-in__login>input {
+    margin-bottom: 15px;
+    padding: 8px 8px;
+    outline: none;
+    border: none;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.captcha-alert {
+    display: none;
+    transition: 0.5s;
+    margin: 0px 0 10px 0;
+    color: red;
+}
+
+.sign-in__login__captcha {
+    display: none;
+}
+
+.sign-in__login__captcha {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#captcha-input {
+    border: 2px solid #fff;
+    background-color: #e5e5e5;
+    outline: none;
+    padding: 8px 8px;
+    width: 80%;
+}
+.capcha-img{
+    background: url('../img/captcha-bg.png');
+    width: 140px;
+    max-width: 100%;
+    height: 34.4px;
+}
+.captcha-code {
+    text-align: center;
+    color: red;
+    letter-spacing: 3px;
+    font-family: captchaFont;
+    font-size: 25px;
+    transform: scale(1.1);
+    margin: 0;
+    padding: 4px 0;
+}
+
+.captcha-icons span {
+    cursor: pointer;
+}
+
+.captcha-icons span:first-child {
+    margin: 0 15px;
+}
+
+.sign-in__login {
+    margin-top: 10px;
+}
+
+.sign-in__login__remember {
+    accent-color: #009981;
+    margin-bottom: 10px;
+}
+
+.sign-in__login__remember input {
+    transform: scale(1.8);
+    margin: 5px 10px 15px 5px;
+    outline: none;
+}
+
+.sign-in__login__remember span {
+    color: #2aaa96
+}
+
+.sign-in__btn button, .sign-in__btn a {
+    padding: 12px 12px;
+    text-align: center;
+    color: #000;
+    width: 45.8%;
+    display: block;
+    font-weight: 500;
+}
+
+.sign-in__btn button:first-child {
+    color: #fff;
+    background: linear-gradient(0deg, #005245, #008a74)
+}
+
+.sign-in__btn button:hover {
+    background: linear-gradient(180deg, #005245, #008a74)
+}
+
+.sign-in__btn a {
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.sign-in__btn a:hover {
+    color: #2aaa96;
+}
+
+.sign-in__missing {
+    width: 100%;
+}
+
+.sign-in__missing a {
+    float: right;
+    margin-top: 10px;
+    font-size: 0.9125rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.sign-in__missing a:hover {
+    color: #2aaa96;
+}
+.captcha-area{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.captcha-area .check{ 
+    position: absolute;
+    right: 30px;
+}
+
+span.signin-notif{
+    color: red;
+}
+
+.signin-notif.notif1 {
+    display: none;
+}
+
+.signin-notif.notif2 {
+    display: none;
+}
+
+.signin-notif.notif3 {
+    display: none;
+}
+
+.signin-notif.notif4 {
+    display: none;
+}

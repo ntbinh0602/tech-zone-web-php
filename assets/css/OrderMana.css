@@ -1,0 +1,265 @@
+.order-mana-right {
+  width: 70%;
+  margin: 0 auto;
+  min-height: 1000px;
+}
+
+.order-mana-right .order-mana__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.order-mana-right .order-mana__menu a {
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+  padding: 16px 0;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  color: #000;
+  min-height: 14.4px;
+}
+
+.order-mana-right .order-mana__menu a:hover {
+  border-bottom: 2px solid #19741f;
+  z-index: 2px;
+  color: #2ab431;
+}
+
+.order-mana-right .order-mana__search {
+  position: relative;
+  padding: 12px 0;
+  margin: 20px 0;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 1px 1px 0 black;
+          box-shadow: 0 1px 1px 0 black;
+  color: #212121;
+  background: #eaeaea;
+  border-radius: 2px;
+}
+
+.order-mana-right .order-mana__search i {
+  position: absolute;
+  left: 10px;
+}
+
+.order-mana-right .order-mana__search input {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+          flex: 1;
+  font-size: 14px;
+  line-height: 16px;
+  border: 0;
+  outline: none;
+  background-color: inherit;
+  padding-left: 50px;
+}
+
+.order-mana-UI1 .order-mana-con {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.order-mana-UI1 .order-mana-con-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px 0;
+  margin: 0 20px;
+}
+
+.order-mana-UI1 .order-mana-con-status .order-mana-status-col {
+  color: #2ab431;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+}
+
+.order-mana-UI1 .order-mana-con-status .order-mana-status-col:last-child {
+  border: none;
+}
+
+.order-mana-UI1 .order-mana-con-status-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order-mana-UI1 .order-mana-con-status-3 i:last-child {
+  display: none;
+}
+
+.order-mana-UI1 .order-mana-con-status-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order-mana-UI1 .order-mana-con-status-1 .order-mana-status-col {
+  color: orange;
+}
+
+.order-mana-UI1 .order-mana-con-status-1 i:nth-child(2) {
+  display: none;
+}
+
+.order-mana-UI1 .order-mana-con-status-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order-mana-UI1 .order-mana-con-status-2 .order-mana-status-col {
+  color: #2828ad;
+}
+
+.order-mana-UI1 .order-mana-con-status-2 i:last-child {
+  display: none;
+}
+
+.order-mana-UI1 .order-mana-con-status-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order-mana-UI1 .order-mana-con-status-4 .order-mana-status-col {
+  color: red;
+}
+
+.order-mana-UI1 .order-mana-con-status-4 i:nth-child(2) {
+  display: none;
+}
+
+.order-mana-UI1 .order-mana-con-product {
+  margin: 0 20px 0;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+.order-mana-UI1 .order-mana-con-product-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-mana-UI1 .order-mana-con-product-col-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-mana-UI1 .order-mana-con-product-col-left img {
+  width: 80px;
+}
+
+.order-mana-UI1 .order-mana-con-product-col-left-title {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #666;
+}
+
+.order-mana-UI1 .order-mana-con-product-col-left-title span {
+  font-size: 15px;
+  color: #666;
+}
+
+.order-mana-UI1 .order-mana-con-product-col-left-title span:first-child {
+  font-size: 20px;
+  color: #000;
+}
+
+.order-mana-UI1 .order-mana-con-product-col-right {
+  margin-right: 50px;
+  color: red;
+}
+
+.order-mana-UI1 .order-mana-con-product-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order-mana-UI1 .order-mana-con-total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  margin-right: 20px;
+}
+
+.order-mana-UI1 .order-mana-con-total-col {
+  margin-left: 20px;
+}
+
+.order-mana-UI1 .order-mana-con-total-col a {
+  padding: 12px 35px;
+  text-decoration: none;
+}
+
+.order-mana-UI1 .order-mana-con-total-col a:first-child {
+  color: #000;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+}
+
+.order-mana-UI1 .order-mana-con-total-col a:first-child:hover {
+  background: #ccc;
+}
+
+.order-mana-UI1 .order-mana-con-total-col a:last-child {
+  color: #fff;
+  background: transparent linear-gradient(88deg, #009981 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+}
+
+.order-mana-UI1 .order-mana-con-total-col a:last-child:hover {
+  opacity: 0.8;
+}
+
+.order-mana-UI1 .order-mana-con-total-col span:first-child {
+  margin-right: 10px;
+}
+
+.order-mana-UI1 .order-mana-con-total-col span:last-child {
+  color: red;
+  font-size: 20px;
+}
+/*# sourceMappingURL=Ordermana.css.map */
